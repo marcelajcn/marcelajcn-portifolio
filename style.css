@@ -1,0 +1,133 @@
+body {
+    background-image: url(../imgs/vvv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'VT323', monospace;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao{  
+    
+    background-color: black;
+    width: 385px;
+    border: 2px solid  #7f1158;
+    border-radius: 75px;
+    overflow:hidden;
+    margin-top: 6%; }
+
+
+.cartao .minhas-informacoes{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartao .minhas-informacoes img{
+    border-radius: 50px;
+    border: 4px solid black;
+    width: 195px;
+    height: 195px;
+}
+
+.cartao .minhas-informacoes .nome{
+    font-size: 40px;
+}
+
+.cartao .minhas-informacoes .cargo{
+    font-size: 27px;
+    color: #b8bbc5;
+}
+
+.cartao .conteudo{
+    margin-top: 15px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cartao .abas img{
+    width: 27px;
+}
+
+.cartao .abas .aba.selecionado{
+    background-color: black;
+}
+
+.cartao .informacoes-abas{
+    background-color: black;
+    
+}
+
+.cartao .abas .aba:hover{
+    background-color: black;
+}
+
+.informacoes-abas .informacao{
+    min-height: 160px;
+    padding: 15px;
+   
+}
+
+.informacoes-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacao-abas .descricao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.informacoes-abas .informacao.selecionado {
+    display: block;
+}
+
+.redes-sociais li a {
+    width: 250px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+ .curriculo {
+    background-color: #fc3af8;
+}
+
+ .linkedin {
+    background-color: #7f1158;
+}
+
+.github {
+    background-color: #b466d6;
+}
+
+.redes-sociais li a:hover {
+    opacity: 0.8;
+}
+
